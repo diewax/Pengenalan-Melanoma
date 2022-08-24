@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kuliyah/a/app/src/main/res/drawable/cardview_background_child.xml" value="0.196" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/drawable/cardview_background_normal.xml" value="0.196" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/drawable/cardview_background_selected.xml" value="0.195" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/drawable/cardview_background_selector.xml" value="0.196" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.196" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/drawable/layout_abcde_btm.xml" value="0.332" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/drawable/layout_abcde_top.xml" value="0.332" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/drawable/layout_hasiltes.xml" value="0.195" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/drawable/layout_hasiltesbottom.xml" value="0.195" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/drawable/radio_text_selected.xml" value="0.332" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/drawable/roundedbutton.xml" value="0.332" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/layout/activity_abcde.xml" value="0.33" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/layout/activity_deteksi_melanoma.xml" value="0.18802083333333333" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/layout/activity_hasil_tes.xml" value="0.22" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/layout/activity_wiki.xml" value="0.36666666666666664" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/layout/list_group.xml" value="0.1" />
+        <entry key="..\:/Kuliyah/a/app/src/main/res/layout/list_item.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

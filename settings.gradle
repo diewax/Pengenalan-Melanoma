@@ -1,0 +1,2 @@
+include ':app', 'OpenCV4'
+rootProject.name='Melanoma'

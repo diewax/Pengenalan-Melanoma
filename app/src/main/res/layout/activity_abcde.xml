@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.ABCDE.ABCDE">
+    <LinearLayout
+
+        android:id="@+id/layout_ABCDE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="20"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/m_asymmetrical"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="Apakah tahi lalat anda tidak simetris?"
+                android:textColor="@color/colorAccent" />
+            <RadioGroup
+                android:id="@+id/radio_asymmetrical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RadioButton
+                    android:id="@+id/yes_asymmetrical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:text="@string/radio_yes" />
+                <RadioButton
+                    android:id="@+id/no_asymmetrical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+                    android:text="@string/radio_no" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/m_border"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="Apakah tahi lalat anda memiliki pinggiran tidak teratur?"
+                android:textColor="@color/colorAccent" />
+            <RadioGroup
+                android:id="@+id/radio_border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RadioButton
+                    android:id="@+id/yes_border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:text="@string/radio_yes" />
+                <RadioButton
+                    android:id="@+id/no_border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+                    android:text="@string/radio_no" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/m_color"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="Apakah tahi lalat anda berwana selain hitam atau coklat?"
+                android:textColor="@color/colorAccent" />
+            <RadioGroup
+                android:id="@+id/radio_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RadioButton
+                    android:id="@+id/yes_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:text="@string/radio_yes" />
+                <RadioButton
+                    android:id="@+id/no_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+                    android:text="@string/radio_no" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/m_diameter"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="Apakah tahi lalat anda memiliki ukuran lebih dari 6 milimeter?"
+                android:textColor="@color/colorAccent" />
+            <RadioGroup
+                android:id="@+id/radio_diameter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RadioButton
+                    android:id="@+id/yes_diameter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:text="@string/radio_yes" />
+                <RadioButton
+                    android:id="@+id/no_diameter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+                    android:text="@string/radio_no" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/m_evolving"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="Apakah tahi lalat anda semakin besar seiring berjalannya waktu?"
+                android:textColor="@color/colorAccent" />
+            <RadioGroup
+                android:id="@+id/radio_evolving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RadioButton
+                    android:id="@+id/yes_evolving"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:text="@string/radio_yes" />
+                <RadioButton
+                    android:id="@+id/no_evolving"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+                    android:text="@string/radio_no" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btm_before_result"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/m_generate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btm_after_result"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="2dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Silahkan Lanjut Deteksi Melalui Tombol Deteksi"
+                android:textColor="@color/colorAccent"
+                android:textAllCaps="false" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+            <Button
+                android:id="@+id/m_deteksi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:text="Deteksi" />
+            <Button
+                android:id="@+id/m_retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:text="Tes Ulang" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

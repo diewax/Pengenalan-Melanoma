@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFB77A</color>
+    <color name="colorPrimaryVariant">#914C00</color>
+    <color name="colorOnPrimary">#4E2600</color>
+    <color name="colorPrimaryContainer">#6F3900</color>
+    <color name="colorOnPrimaryContainer">#FFDCC1</color>
+
+    <color name="colorSecondary">#E4C0A6</color>
+    <color name="colorSecondaryVariant">#745944</color>
+    <color name="colorOnSecondary">#422C1A</color>
+    <color name="colorSecondaryContainer">#5A422E</color>
+    <color name="colorSecondaryOnContainer">#FFDCC2</color>
+
+    <color name="colorBackground">#201A17</color>
+    <color name="colorOnBackground">#ECE0DA</color>
+    <color name="colorSurface">#201A17</color>
+    <color name="colorOnSurface">#ECE0DA</color>
+    <color name="colorSurfaceVariant">#51443B</color>
+    <color name="colorOnSurfaceVariant">#D6C3B6</color>
+    <color name="colorOutline">#9F8E82</color>
+    
+    
+    
+<!--    -->
+<!--    <color name="colorPrimaryLight">#be9c91</color>-->
+<!--    <color name="colorPrimaryDark">#5f4339</color>-->
+<!--    <color name="colorSecondary">#ffcc80</color>-->
+<!--    <color name="colorSecondaryLight">#ffffb0</color>-->
+<!--    <color name="colorSecondaryDark">#ca9b52</color>-->
+    
+    
+    <color name="colorAccent">#F4E5E1</color>
+    <color name="colorProgressBar">#009855</color>
+</resources>
